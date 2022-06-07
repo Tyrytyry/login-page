@@ -1,0 +1,116 @@
+body
+{
+	 margin: 0;
+    padding: 0;
+    background: url(image.jpg);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+
+#topbar
+{
+	
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 170px;
+	
+	 
+
+}
+
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+	
+	 
+}
+
+#sidebar
+{
+	float: left;
+	width: 148px;
+	min-height: 370px;
+	padding:20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 730px;
+	background-color: #dedede;
+	min-height: 330px;
+	text-align: justify;
+}
+
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.option
+{
+	font-size:18px;
+	height:25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.option:hover
+{
+	background-color: #157d23;
+	color: white;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+}
+
